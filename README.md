@@ -63,13 +63,47 @@ background-image: url("https://i.postimg.cc/MZ4dmc7J/Accra-hero-crop2-2.jpg")
 </head>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<div class="navbar">
+  <a href="#welcome-section">Home</a>
+  <a href="#project">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="https://www.instagram.com/princeagouda/" target="_blank">Instagram</a>
+</div>
+
+<section class="welcome-section" id="welcome-section">
+  <h1>Abdul-Jalil "Prince" Agouda</h1>
+</section>
+
+<section id="project">
+  <div class="project-tile">
+    <h2>Python</h2>
+    <p>Phyton is hard to learn</p>
+  </div> 
+
+  <div class="project-tile">
+    <h2>HTML</h2>
+    <p>HTML is hard to learn</p>
+  </div>
+
+  <div class="project-tile">
+   <h2>Ruby on Rails</h2>
+    <p>Lvl veteran Ruby on Rails developer.check out my</p>
+  </div>
+  
+ <section id="contact">
+   <a href="https://github.com/princagouda02" target="_blank"><button>GitHub Profile</button></a>
+  </section>
+  
+  <div class="image">
+<img src="https://i.postimg.cc/MZ4dmc7J/Accra-hero-crop2-2.jpg"
+</div>
+
+       
+                          
 
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
+document.getElementsByTagName("h1")[0].style.fontSize = "80px";
+
 </script>
 
 </body>
